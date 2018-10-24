@@ -16,7 +16,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1rem;
     line-height: 1.5;
-    color: #333;
+    color: rgb(0, 0, 0);
     overflow-x: hidden !important;
 }
 
@@ -24,7 +24,31 @@ body{
     height: 94vh;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: linear-gradient(to right, #3c0679, #ff0095);
+}
+
+h1 {
+
+    margin: 0 auto;
+    font-family: “Roboto Slab”;
+    font-weight: 400;
+    font-size: 5em;
+    background: linear-gradient(330deg, #ff0095 0%, #3c0679 25%, #ff0095 50%, #3c0679 75%, #ff0095 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 90px;
+    }
+
+
+h3{
+    margin: 0 auto;
+    font-family: “Roboto Slab”;
+    font-weight: 400;
+    font-size: 5em;
+    background: linear-gradient(330deg, #3c0679 0%, #ff0095 25%, #3c0679 50%,#ff0095 75%, #3c0679 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 200px;
 }
 
 .container{
